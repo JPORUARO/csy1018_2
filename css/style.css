@@ -1,0 +1,22 @@
+body {
+	font-family: 'Open Sans';
+	margin: 0;
+	background-color: #ADD8E6;
+}
+
+#gh {
+	background-image: url('http://i.imgur.com/wfyjn5g.png');
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 3px;
+	right: 1px;
+	opacity: 1;
+	transition: opacity 0.25s;
+	border-radius: 49%;
+}
+
+#gh:hover {
+	opacity: 0.8;
+	transition: opacity 0.25s;
+}
