@@ -1,22 +1,85 @@
 body {
 	font-family: 'Open Sans';
 	margin: 0;
-	background-color: #ADD8E6;
+	background-color: #808080;
 }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  background-color: #4c1724;
+  color: #f7f7f7;
+  padding: 25px 0;
+  text-align: center;
+  margin: 0;
+}
+
+img.resize{
+   width:200px;
+   height:200px;
+}
+
+
+#bigdiv {
+  border:3px solid black;
+  height: 1000px
+}
+
+
+#avatar {
+	background-image: url('https://avatars3.githubusercontent.com/u/22788482');
+	background-size: 166%;
+	background-position: 50% 10%;
+	width: 165px;
+	height: 165px;
+	border-radius: 35%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #1c1c1c;
+	margin: 25px auto;
+}
+
+nav ul{
+	background-color:#792539;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li{
+	padding: 10px;
+	display: inline-block;
+}
+
+nav ul li:hover{
+	background-color:#b53755;
+	padding: 20
 
 #gh {
 	background-image: url('http://i.imgur.com/wfyjn5g.png');
 	position: absolute;
 	width: 32px;
 	height: 32px;
-	top: 3px;
-	right: 1px;
+	top: 4px;
+	right: 9px;
 	opacity: 1;
 	transition: opacity 0.25s;
-	border-radius: 49%;
+	border-radius: 50%;
 }
 
 #gh:hover {
-	opacity: 0.8;
+	opacity: 0.6;
 	transition: opacity 0.25s;
 }
