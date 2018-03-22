@@ -65,21 +65,22 @@ nav ul li{
 
 nav ul li:hover{
 	background-color:#b53755;
-	padding: 20
+	padding: 10
+}
 
 #gh {
-	background-image: url('http://i.imgur.com/wfyjn5g.png');
-	position: absolute;
-	width: 32px;
-	height: 32px;
-	top: 4px;
-	right: 9px;
-	opacity: 1;
-	transition: opacity 0.25s;
-	border-radius: 50%;
-}
+  	background-image: url('http://i.imgur.com/wfyjn5g.png');
+  	position: absolute;
+  	width: 32px;
+  	height: 32px;
+  	top: 18px;
+  	right: 18px;
+  	opacity: 1;
+  	transition: opacity 0.25s;
+  	border-radius: 49%;
+  }
 
-#gh:hover {
-	opacity: 0.6;
-	transition: opacity 0.25s;
-}
+  #gh:hover {
+  	opacity: 0.8;
+  	transition: opacity 0.25s;
+  }
