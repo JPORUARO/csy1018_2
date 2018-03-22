@@ -32,16 +32,16 @@ img.resize{
 
 
 #avatar {
-	background-image: url('https://avatars3.githubusercontent.com/u/22788482');
-	background-size: 166%;
+	background-image: url('https://pbs.twimg.com/profile_images/976907679850467328/hH3InrE7_400x400.jpg');
+	background-size: 100%;
 	background-position: 50% 10%;
-	width: 165px;
-	height: 165px;
+	width: 265px;
+	height: 265px;
 	border-radius: 35%;
 	border-style: solid;
-	border-width: 5px;
+	border-width: 2px;
 	border-color: #1c1c1c;
-	margin: 25px auto;
+	margin: 95px auto;
 }
 
 nav ul{
