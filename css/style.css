@@ -84,3 +84,23 @@ nav ul li:hover{
   	opacity: 0.8;
   	transition: opacity 0.25s;
   }
+
+	#form{
+		width: 500px;
+		text-align: center;
+		margin: auto;
+	}
+
+	#sendbutton{
+		width: 80px;
+		margin: 20px;
+	}
+
+	#message{
+		height: 150px;
+		width: 500px;
+	}
+
+	input{
+  width:100%
+}
