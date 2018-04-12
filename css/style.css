@@ -104,3 +104,19 @@ nav ul li:hover{
 	input{
   width:100%
 }
+
+.name {
+	font-size:30px;
+}
+
+.edu{
+	padding-top:50px;
+}
+
+.core{
+	padding-top:50px;
+}
+
+.para{
+	padding-top: 20px;
+}
