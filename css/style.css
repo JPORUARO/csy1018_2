@@ -24,10 +24,9 @@ img.resize{
    height:200px;
 }
 
-
 #bigdiv {
   border:3px solid black;
-  height: 1000px
+  height: 900px
 }
 
 
@@ -109,14 +108,46 @@ nav ul li:hover{
 	font-size:30px;
 }
 
-.edu{
-	padding-top:50px;
-}
-
 .core{
 	padding-top:50px;
 }
 
 .para{
 	padding-top: 20px;
+}
+
+.call-outs-container {
+	max-width: 1400px;
+	margin: 40px auto 0 auto;
+	display: flex;
+}
+
+.call-out {
+	padding: 20px;
+	margin-bottom: 20px;
+	flex: 1;
+}
+
+#mgplist a {
+  margin: 2px;
+  border: 2px solid #333;
+  display: inline-block;
+}
+
+@media (min-width: 600px)  {
+	p {
+		font-size: 1.5rem;
+		line-height: 1.5;
+	}
+}
+
+@media (min-width: 800px) {
+	p{
+		font-size: 1.5rem;
+		line-height: 1.5;
+	}
+}
+
+@@media min {
+
 }
